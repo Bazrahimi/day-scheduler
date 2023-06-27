@@ -2,7 +2,8 @@ $(document).ready(function() {
   const currentDay = dayjs().format('dddd, MMMM D, YYYY');
   $('#currentDay').text(currentDay);
 
-  $('.saveBtn').on('click', function() {
+ 
+  $(document).on('click', '.saveBtn', function() {
     const textInput = $(this).siblings(".description").val();
     const parentId = $(this).parent().attr('id');
     localStorage.setItem(parentId, textInput);
