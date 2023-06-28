@@ -6,7 +6,7 @@ Work Day Scheduler is a calendar application that allows users to save events fo
 
 The application is built using HTML, CSS, and JavaScript. It utilizes the Bootstrap framework for styling and jQuery for interactivity. Day.js is used for date and time manipulation.
 
-![Screenshot of the webpage](./develop/assets/1.png)
+![Screenshot of the webpage](./Develop/Assets/1.png)
 
 ## Installation
 
